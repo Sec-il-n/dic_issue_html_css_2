@@ -1,0 +1,82 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+header {
+  background-color: #000066;
+  height: 70px;
+  font-size: 1rem;
+}
+header ul {
+  margin: 0 auto;
+}
+header ul a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+header li {
+  list-style: none;
+  /* 上下左右に隙間をつくり、適度な間隔で表示 */
+  padding: 15px;
+  margin: auto;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.main-header img {
+  width: 150px;
+  display: block;
+  margin: auto;
+  padding-top: 15%;
+  text-align: center;
+}
+.about {
+  padding-bottom: 20px;
+}
+.function {
+  padding-top: 20px;
+  background-color: #C0C0C0;
+}
+.function-images {
+  margin-top: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+.function-image {
+  float: left;
+  padding: 30px;
+
+}
+footer {
+  background-color: #000066;
+  height: 70px;
+  font-size: 0.5rem;
+  text-align: center;
+  padding-top: 20px;
+}
+footer p {
+  color: #fff;
+  text-decoration: none;
+
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
